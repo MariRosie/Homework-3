@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="1">
+    <test name="RegisterPage">
+        <classes>
+            <class name="registration.RegistrationPageTests"/>
+        </classes>
+    </test>
+    <test name="HomePage">
+        <classes>
+            <class name="registration.HomepageTests"/>
+        </classes>
+    </test>
+    <test name="SupportPage">
+        <classes>
+            <class name="registration.VeliSupportPageTests"/>
+        </classes>
+    </test>
+
+</suite>
